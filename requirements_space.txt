@@ -1,0 +1,25 @@
+# Hugging Face Spaces Requirements
+# These are optimized for free-tier deployment
+
+# Core
+gradio>=4.0.0
+huggingface_hub>=0.20.0
+
+# LLM (for inference API)
+transformers>=4.36.0
+torch>=2.1.0
+accelerate>=0.25.0
+
+# Free web search
+duckduckgo-search>=4.1.0
+
+# HTTP and async
+httpx>=0.25.0
+aiohttp>=3.9.0
+
+# Content extraction
+beautifulsoup4>=4.12.0
+trafilatura>=1.6.0
+
+# Utilities
+python-dotenv>=1.0.0
